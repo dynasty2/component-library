@@ -1,0 +1,53 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.button-primary {
+    background-color: #0069D9;
+    border: #0069D9;
+    color: white;
+}
+
+.button-warning {
+    background-color: yellow;
+    color: black;
+}
+
+.button-success {
+    background-color: green;
+    color: white;
+}
+
+.button-danger {
+    background-color: red;
+    color: white;
+}
+
+.button-large {
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+}
+
+.button-hover:hover {
+    background-color: darkblue;
+  }
+
+.button-hoverRed:hover {
+    background-color: darkred;
+  }
+  
+.button-hoverGreen:hover {
+    background-color: darkgreen;
+  }
+
+.button-hoverYellow:hover {
+    background-color: brown;
+  }
+
+.button-outline {
+    border: 3px solid blue;
+    background-color: white;
+    color: blue;
+}
