@@ -141,3 +141,8 @@ storiesOf('Button', module)
         type="warning"
         largeOutlineW
     />)
+    .add('Small Shopping Cart', () => <Button
+        label="Small Shopping Cart"
+        type="cart"
+        smallCart
+    />)

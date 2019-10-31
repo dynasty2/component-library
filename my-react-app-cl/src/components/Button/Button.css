@@ -133,7 +133,7 @@ button {
     border-radius: 2px;
 }
 
-.button-largeOutline{
+.button-largeOutline {
     border: 3px solid blue;
     background-color: white;
     color: blue;
@@ -142,7 +142,7 @@ button {
     height: 500px;
     border-radius: 2px;
 }
-.button-largeOutlineD{
+.button-largeOutlineD {
     border: 3px solid red;
     background-color: white;
     color: red;
@@ -151,7 +151,7 @@ button {
     height: 500px;
     border-radius: 2px;
 }
-.button-largeOutlineS{
+.button-largeOutlineS {
     border: 3px solid gree;
     background-color: white;
     color: green;
@@ -160,7 +160,7 @@ button {
     height: 500px;
     border-radius: 2px;
 }
-.button-largeOutlineW{
+.button-largeOutlineW {
     border: 3px solid yellow;
     background-color: white;
     color: yellow;
@@ -168,4 +168,7 @@ button {
     width: 1000px;
     height: 500px;
     border-radius: 2px;
+}
+.button-smallCart {
+    
 }

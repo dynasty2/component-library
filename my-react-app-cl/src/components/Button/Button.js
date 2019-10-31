@@ -4,7 +4,7 @@ import './Button.css'
 
 const Button = (props) => {
     let classList = ''
-    let types = ['primary', 'danger', 'success', 'warning']
+    let types = ['primary', 'danger', 'success', 'warning', 'cart']
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
@@ -70,6 +70,9 @@ const Button = (props) => {
     }
     if (props.largeOutlineW) {
         classList += ` button-largeOutlineW`
+    }
+    if (props.smallCart) {
+        classList += ` button-smallCart`
     }
    return  <button className={classList}>
         {props.label}
