@@ -7,47 +7,165 @@ button {
     background-color: #0069D9;
     border: #0069D9;
     color: white;
+    border-radius: 2px;
 }
 
 .button-warning {
     background-color: yellow;
     color: black;
+    border-radius: 2px;
 }
 
 .button-success {
     background-color: green;
     color: white;
+    border-radius: 2px;
 }
 
 .button-danger {
     background-color: red;
     color: white;
+    border-radius: 2px;
 }
 
 .button-large {
     padding: 10px 50px;
     width: 1000px;
     height: 500px;
+    border-radius: 2px;
 }
 
 .button-hover:hover {
     background-color: darkblue;
+    border-radius: 2px;
   }
 
 .button-hoverRed:hover {
     background-color: darkred;
+    border-radius: 2px;
   }
   
 .button-hoverGreen:hover {
     background-color: darkgreen;
+    border-radius: 2px;
   }
 
 .button-hoverYellow:hover {
     background-color: brown;
+    border-radius: 2px;
   }
 
 .button-outline {
     border: 3px solid blue;
     background-color: white;
     color: blue;
+    border-radius: 2px;
+}
+.button-outlineD {
+    border: 3px solid red;
+    background-color: white;
+    color:red;
+    border-radius: 2px;
+}
+.button-outlineS {
+    border: 3px solid green;
+    background-color: white;
+    color: green;
+    border-radius: 2px;
+}
+.button-outlineW {
+    border: 3px solid yellow;
+    background-color: white;
+    color: yellow;
+    border-radius: 2px;
+}
+.button-light {
+    background-color: rgb(234,242,253);
+    color: rgb(53,158,253);
+    border-radius: 2px;
+}
+.button-lightD {
+    background-color: rgb(255,232,235);
+    color: rgb(255,66,82);
+    border-radius: 2px;
+}
+.button-lightS {
+    background-color: rgb(230,247,228);
+    color: rgb(13,206,11);
+    border-radius: 2px;
+}
+.button-lightW {
+    background-color: rgb(255, 246, 227);
+    color: rgb(255,198,0);
+    border-radius: 2px;
+}
+
+.button-largeLight {
+    background-color: rgb(234,242,253);
+    color: rgb(53,158,253);
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+.button-largeLightD {
+    background-color: rgb(255,232,235);
+    color: rgb(255,66,82);
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+.button-largeLightS {
+    background-color: rgb(230,247,228);
+    color: rgb(13,206,11);
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+.button-largeLightW {
+    background-color: rgb(255, 246, 227);
+    color: rgb(255,198,0);
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+
+.button-largeOutline{
+    border: 3px solid blue;
+    background-color: white;
+    color: blue;
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+.button-largeOutlineD{
+    border: 3px solid red;
+    background-color: white;
+    color: red;
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+.button-largeOutlineS{
+    border: 3px solid gree;
+    background-color: white;
+    color: green;
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
+}
+.button-largeOutlineW{
+    border: 3px solid yellow;
+    background-color: white;
+    color: yellow;
+    padding: 10px 50px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2px;
 }

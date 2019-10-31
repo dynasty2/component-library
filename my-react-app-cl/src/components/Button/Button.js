@@ -26,9 +26,55 @@ const Button = (props) => {
     if (props.outline) {
         classList += ` button-outline`
     }
+    if (props.outlineD) {
+        classList += ` button-outlineD`
+    }
+    if (props.outlineS) {
+        classList += ` button-outlineS`
+    }
+    if (props.outlineW) {
+        classList += ` button-outlineW`
+    }
+    if (props.light) {
+        classList += ` button-light`
+    }
+    if (props.lightD) {
+        classList += ` button-lightD`
+    }
+    if (props.lightS) {
+        classList += ` button-lightS`
+    }
+    if (props.lightW) {
+        classList += ` button-lightW`
+    }
+    if (props.largeLight) {
+        classList += ` button-largeLight`
+    }
+    if (props.largeLightD) {
+        classList += ` button-largeLightD`
+    }
+    if (props.largeLightS) {
+        classList += ` button-largeLightS`
+    }
+    if (props.largeLightW) {
+        classList += ` button-largeLightW`
+    }
+    if (props.largeOutline) {
+        classList += ` button-largeOutline`
+    }
+    if (props.largeOutlineD) {
+        classList += ` button-largeOutlineD`
+    }
+    if (props.largeOutlineS) {
+        classList += ` button-largeOutlineS`
+    }
+    if (props.largeOutlineW) {
+        classList += ` button-largeOutlineW`
+    }
    return  <button className={classList}>
         {props.label}
     </button>
 }
+
 
 export default Button;
