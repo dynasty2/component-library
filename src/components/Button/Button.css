@@ -85,6 +85,7 @@ button {
     border-radius: 2px;
     display: flex;
     justify-content: center;
+    /* justify-content: space-between; */
 }
 .button-lightD {
     background-color: rgb(255,232,235);
@@ -172,7 +173,25 @@ button {
     border-radius: 2px;
 }
 
+.button-lightText {
+    background-color: rgb(234,242,253);
+    color: rgb(53,158,253);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart {
+    margin-right: 8px;
+}
+
 .button-cart {
+    width: 150px;
+    height: 46px;
+    font-size: 14px;
+}
+
+.button-cartSmall {
     width: 46px;
     height: 46px;
 }

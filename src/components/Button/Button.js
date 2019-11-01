@@ -78,13 +78,23 @@ const Button = (props) => {
     }
     if (props.cart) {
         classList += ` button-cart`
-        console.log({classList});
-        return (
-            <button className={classList}>
-                <img src={Cart}/>
-            </button>
-        );
-    }
+            console.log({classList});
+                return (
+                     <button className={classList}>
+                        <img className="cart" src={Cart}/>
+                        {props.label}
+                    </button>
+            );
+        } 
+    if (props.cartSmall) {
+        classList += ` button-cartSmall`
+            console.log({classList});
+                return (
+                    <button className={classList}>
+                         <img src={Cart}/>
+                     </button>
+            );
+        }                      
    return  <button className={classList}>
         {props.label}
     </button>

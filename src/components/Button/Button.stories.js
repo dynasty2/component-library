@@ -141,9 +141,15 @@ storiesOf('Button', module)
         type="warning"
         largeOutlineW
     />)
-    .add('Cart', () => <Button
-        label="Cart"
+    .add('Add To Cart', () => <Button
+        label="Add To Cart"
         type="primary"
         cart
+        light
+    />)
+    .add('Cart', () => <Button
+        label=""
+        type="primary"
+        cartSmall
         light
     />)
