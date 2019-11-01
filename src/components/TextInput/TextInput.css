@@ -1,0 +1,15 @@
+.textInput-small {
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+}
+.textInput-medium {
+    width: 300px;
+    height: 53px;
+    font-size: 16px;
+}
+.textInput-large {
+    width: 300px;
+    height: 69px;
+    font-size: 16px;
+}
