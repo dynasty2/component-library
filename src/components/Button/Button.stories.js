@@ -153,3 +153,9 @@ storiesOf('Button', module)
         cartSmall
         light
     />)
+    .add('Add To Favorites', () => <Button
+        label="Add To Favorites"
+        type="primary"
+        heart
+        light
+    />)

@@ -195,3 +195,15 @@ button {
     width: 46px;
     height: 46px;
 }
+
+.heart {
+    margin-top: 1px;
+    margin-right: 8px;
+}
+
+.button-heart {
+    width: 181px;
+    height: 46px;
+    font-size: 14px;
+    padding: 0;
+}

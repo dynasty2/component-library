@@ -2,6 +2,7 @@ import React from 'react';
 import './Button.css'
 // This is a functional component - just sent up a little differently as an arrow function!
 import Cart from '../Imports/cart_2.svg'
+import heart from '../Imports/heart.svg'
 
 
 const Button = (props) => {
@@ -94,7 +95,17 @@ const Button = (props) => {
                          <img src={Cart}/>
                      </button>
             );
-        }                      
+        }  
+        if (props.heart) {
+            classList += ` button-heart`
+                console.log({classList});
+                    return (
+                         <button className={classList}>
+                            <img className="heart" src={heart}/>
+                            {props.label}
+                        </button>
+                );
+            }                     
    return  <button className={classList}>
         {props.label}
     </button>
