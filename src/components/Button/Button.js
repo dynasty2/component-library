@@ -1,6 +1,8 @@
 import React from 'react';
 import './Button.css'
 // This is a functional component - just sent up a little differently as an arrow function!
+import Cart from '../Imports/cart_2.svg'
+
 
 const Button = (props) => {
     let classList = ''
@@ -8,9 +10,11 @@ const Button = (props) => {
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
+
     if (props.large) {
         classList += ` button-large`
     }
+
     if (props.hover) {
         classList += ` button-hover`
     }
@@ -23,6 +27,7 @@ const Button = (props) => {
     if (props.hoverYellow) {
         classList += ` button-hoverYellow`
     }
+
     if (props.outline) {
         classList += ` button-outline`
     }
@@ -71,8 +76,14 @@ const Button = (props) => {
     if (props.largeOutlineW) {
         classList += ` button-largeOutlineW`
     }
-    if (props.smallCart) {
-        classList += ` button-smallCart`
+    if (props.cart) {
+        classList += ` button-cart`
+        console.log({classList});
+        return (
+            <button className={classList}>
+                <img src={Cart}/>
+            </button>
+        );
     }
    return  <button className={classList}>
         {props.label}

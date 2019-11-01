@@ -10,6 +10,12 @@ button {
     border-radius: 2px;
 }
 
+.button-danger {
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+}
+
 .button-warning {
     background-color: yellow;
     color: black;
@@ -18,12 +24,6 @@ button {
 
 .button-success {
     background-color: green;
-    color: white;
-    border-radius: 2px;
-}
-
-.button-danger {
-    background-color: red;
     color: white;
     border-radius: 2px;
 }
@@ -83,6 +83,8 @@ button {
     background-color: rgb(234,242,253);
     color: rgb(53,158,253);
     border-radius: 2px;
+    display: flex;
+    justify-content: center;
 }
 .button-lightD {
     background-color: rgb(255,232,235);
@@ -152,7 +154,7 @@ button {
     border-radius: 2px;
 }
 .button-largeOutlineS {
-    border: 3px solid gree;
+    border: 3px solid green;
     background-color: white;
     color: green;
     padding: 10px 50px;
@@ -169,6 +171,8 @@ button {
     height: 500px;
     border-radius: 2px;
 }
-.button-smallCart {
-    
+
+.button-cart {
+    width: 46px;
+    height: 46px;
 }
