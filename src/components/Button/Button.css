@@ -207,3 +207,8 @@ button {
     font-size: 14px;
     padding: 0;
 }
+
+.button-heartSmall {
+    width: 46px;
+    height: 46px;
+}

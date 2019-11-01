@@ -159,3 +159,9 @@ storiesOf('Button', module)
         heart
         light
     />)
+    .add('heart', () => <Button
+        label=""
+        type="primary"
+        heartSmall
+        light
+    />)

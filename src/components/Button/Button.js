@@ -96,16 +96,25 @@ const Button = (props) => {
                      </button>
             );
         }  
-        if (props.heart) {
-            classList += ` button-heart`
-                console.log({classList});
-                    return (
-                         <button className={classList}>
-                            <img className="heart" src={heart}/>
-                            {props.label}
-                        </button>
-                );
-            }                     
+     if (props.heart) {
+        classList += ` button-heart`
+            console.log({classList});
+                return (
+                    <button className={classList}>
+                        <img className="heart" src={heart}/>
+                        {props.label}
+                    </button>
+            );
+        }
+    if (props.heartSmall) {
+        classList += ` button-heartSmall`
+            console.log({classList});
+                return (
+                    <button className={classList}>
+                        <img src={heart}/>
+                    </button>
+            );
+        }                                       
    return  <button className={classList}>
         {props.label}
     </button>
